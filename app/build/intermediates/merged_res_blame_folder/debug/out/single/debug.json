@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_data_background.xml.flat",
+        "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\drawable\\profile_data_background.xml"
+    },
+    {
         "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

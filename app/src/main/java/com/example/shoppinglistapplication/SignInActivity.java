@@ -32,10 +32,10 @@ private ConstraintLayout btSigniIn;
         setContentView(R.layout.activity_sign_in);
 
         mAuth = FirebaseAuth.getInstance();
-        /*if (mAuth.getCurrentUser()!=null){
+        if (mAuth.getCurrentUser()!=null){
             startActivity(new Intent(SignInActivity.this,FragmentActivity.class));
             finish();
-        }*/
+        }
 
 
         btSigniIn = findViewById(R.id.constraint1);
