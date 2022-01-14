@@ -3,10 +3,18 @@ package com.example.shoppinglistapplication;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.example.shoppinglistapplication.models.ListModel;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,7 +22,11 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class ListFragment extends Fragment {
-
+private TextView tvSalutation;
+private FloatingActionButton floatingActionButton;
+private RecyclerView recyclerView;
+private LinearLayoutManager linearLayoutManager;
+private ArrayList <ListModel> lists;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -59,6 +71,13 @@ public class ListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_list, container, false);
+
+        tvSalutation = view.findViewById(R.id.tv_salutaion);
+        recyclerView = view.findViewById(R.id.recyclerVew);
+
+
+
+        return view;
     }
 }

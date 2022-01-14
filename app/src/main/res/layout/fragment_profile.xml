@@ -30,7 +30,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/profile_data_background"
             android:orientation="vertical"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
