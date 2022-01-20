@@ -2,11 +2,11 @@ package com.example.shoppinglistapplication.models;
 
 public class ListModel {
     private int listID;
-    private String userName, listHeading, listContent, createTime, createDate;
+    private String userID, listHeading, listContent, createTime, createDate;
 
-    public ListModel(int listID, String userName, String listHeading, String listContent, String createTime, String createDate) {
+    public ListModel(int listID, String userID, String listHeading, String listContent, String createTime, String createDate) {
         this.listID = listID;
-        this.userName = userName;
+        this.userID = userID;
         this.listHeading = listHeading;
         this.listContent = listContent;
         this.createTime = createTime;
@@ -21,12 +21,12 @@ public class ListModel {
         this.listID = listID;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUserID() {
+        return userID;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUserID(String userID) {
+        this.userID = userID;
     }
 
     public String getListHeading() {

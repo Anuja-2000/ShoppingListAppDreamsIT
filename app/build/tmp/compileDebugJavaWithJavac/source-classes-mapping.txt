@@ -12,28 +12,16 @@ com/example/shoppinglistapplication/ProfileFragment.java
  com.example.shoppinglistapplication.ProfileFragment$9
 com/example/shoppinglistapplication/BuildConfig.java
  com.example.shoppinglistapplication.BuildConfig
+com/example/shoppinglistapplication/FragmentActivity.java
+ com.example.shoppinglistapplication.FragmentActivity
+ com.example.shoppinglistapplication.FragmentActivity$1
 com/example/shoppinglistapplication/ForgotPasswordActivity.java
  com.example.shoppinglistapplication.ForgotPasswordActivity
  com.example.shoppinglistapplication.ForgotPasswordActivity$1
  com.example.shoppinglistapplication.ForgotPasswordActivity$1$1
  com.example.shoppinglistapplication.ForgotPasswordActivity$1$2
-com/example/shoppinglistapplication/FragmentActivity.java
- com.example.shoppinglistapplication.FragmentActivity
- com.example.shoppinglistapplication.FragmentActivity$1
-com/example/shoppinglistapplication/MainActivity.java
- com.example.shoppinglistapplication.MainActivity
-com/example/shoppinglistapplication/ListFragment.java
- com.example.shoppinglistapplication.ListFragment
-com/example/shoppinglistapplication/SignInActivity.java
- com.example.shoppinglistapplication.SignInActivity
- com.example.shoppinglistapplication.SignInActivity$1
- com.example.shoppinglistapplication.SignInActivity$2
- com.example.shoppinglistapplication.SignInActivity$3
- com.example.shoppinglistapplication.SignInActivity$4
- com.example.shoppinglistapplication.SignInActivity$5
-com/example/shoppinglistapplication/SplashActivity.java
- com.example.shoppinglistapplication.SplashActivity
- com.example.shoppinglistapplication.SplashActivity$1
+com/example/shoppinglistapplication/models/ListModel.java
+ com.example.shoppinglistapplication.models.ListModel
 com/example/shoppinglistapplication/SignUpActivity.java
  com.example.shoppinglistapplication.SignUpActivity
  com.example.shoppinglistapplication.SignUpActivity$1
@@ -42,3 +30,31 @@ com/example/shoppinglistapplication/SignUpActivity.java
  com.example.shoppinglistapplication.SignUpActivity$4
  com.example.shoppinglistapplication.SignUpActivity$4$1
  com.example.shoppinglistapplication.SignUpActivity$4$2
+com/example/shoppinglistapplication/MainActivity.java
+ com.example.shoppinglistapplication.MainActivity
+com/example/shoppinglistapplication/SplashActivity.java
+ com.example.shoppinglistapplication.SplashActivity
+ com.example.shoppinglistapplication.SplashActivity$1
+com/example/shoppinglistapplication/SignInActivity.java
+ com.example.shoppinglistapplication.SignInActivity
+ com.example.shoppinglistapplication.SignInActivity$1
+ com.example.shoppinglistapplication.SignInActivity$2
+ com.example.shoppinglistapplication.SignInActivity$3
+ com.example.shoppinglistapplication.SignInActivity$4
+ com.example.shoppinglistapplication.SignInActivity$5
+com/example/shoppinglistapplication/AddListActivity.java
+ com.example.shoppinglistapplication.AddListActivity
+ com.example.shoppinglistapplication.AddListActivity$1
+ com.example.shoppinglistapplication.AddListActivity$2
+ com.example.shoppinglistapplication.AddListActivity$3
+ com.example.shoppinglistapplication.AddListActivity$4
+ com.example.shoppinglistapplication.AddListActivity$5
+com/example/shoppinglistapplication/ListFragment.java
+ com.example.shoppinglistapplication.ListFragment
+ com.example.shoppinglistapplication.ListFragment$1
+ com.example.shoppinglistapplication.ListFragment$2
+ com.example.shoppinglistapplication.ListFragment$3
+com/example/shoppinglistapplication/adapters/ListAdapter.java
+ com.example.shoppinglistapplication.adapters.ListAdapter
+ com.example.shoppinglistapplication.adapters.ListAdapter$ViewHolder
+ com.example.shoppinglistapplication.adapters.ListAdapter$ViewHolder$RecyclerViewClickListener

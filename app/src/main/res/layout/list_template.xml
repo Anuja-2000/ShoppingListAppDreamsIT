@@ -3,21 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/profile_data_background">
+    android:background="@drawable/profile_data_background"
+    android:layout_marginTop="20dp">
 
     <TextView
-        android:id="@+id/tv1"
+        android:id="@+id/tv_list_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:text="Sunday Shopping list"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:textColor="#104E05"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
-    <TextView
+    <!--<TextView
         android:id="@+id/tv2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,18 +40,19 @@
         android:textColor="#104E05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv2"
-        />
+        />-->
 
     <TextView
-        android:id="@+id/tv4"
+        android:id="@+id/tv_last_update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="last updated : - 22.37,Monday 27 January"
-        android:textSize="10sp"
+        android:textSize="15sp"
         android:textColor="#104E05"
+        android:paddingBottom="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_list_name"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

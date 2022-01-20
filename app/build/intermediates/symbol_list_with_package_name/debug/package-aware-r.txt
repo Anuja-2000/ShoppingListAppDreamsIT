@@ -1185,6 +1185,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color main_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1301,6 +1302,7 @@ color teal_200
 color teal_700
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
+color text_color
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2008,6 +2010,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id bt_logout
 id bt_update
+id btn_save
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2088,6 +2091,8 @@ id edt_address
 id edt_confirm_password
 id edt_email
 id edt_full_name
+id edt_list_content
+id edt_list_heading
 id edt_password
 id elastic
 id end
@@ -2257,6 +2262,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerVew
 id restart
 id reverse
 id reverseSawtooth
@@ -2354,9 +2360,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
+id text_input_lout
 id text_input_start_icon
 id textinput_counter
 id textinput_error
@@ -2380,10 +2386,14 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv1
 id tv2
 id tvForgotPassword
 id tvLabel1
+id tv_last_update
+id tv_list_name
 id tv_profile_name
+id tv_salutaion
 id tv_sign_in
 id unchecked
 id uniform
@@ -2477,6 +2487,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_list
 layout activity_forgot_password
 layout activity_fragment
 layout activity_main
@@ -2503,6 +2514,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_list
 layout fragment_profile
+layout list_template
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2652,6 +2664,7 @@ string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string list_content
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -3109,6 +3122,7 @@ style TextAppearance_MaterialComponents_Tooltip
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style TextLabel
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight
