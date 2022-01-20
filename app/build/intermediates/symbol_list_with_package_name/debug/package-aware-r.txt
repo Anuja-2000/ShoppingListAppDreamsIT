@@ -1851,6 +1851,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_add_circle_24
+drawable ic_baseline_arrow_back_ios_new_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2010,7 +2011,10 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id bt_logout
 id bt_update
+id btn_back
+id btn_delete
 id btn_save
+id btn_update
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2494,6 +2498,7 @@ layout activity_main
 layout activity_sign_in
 layout activity_sign_up
 layout activity_splash
+layout activity_update_list
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

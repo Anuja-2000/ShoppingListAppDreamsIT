@@ -22,6 +22,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
@@ -74,6 +75,7 @@ private FirebaseAuth mAuth;
         return fragment;
     }
 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,20 +94,21 @@ private FirebaseAuth mAuth;
         db = FirebaseFirestore.getInstance();
         mAuth = FirebaseAuth.getInstance();
         tvSalutation = view.findViewById(R.id.tv_salutaion);
+
         recyclerView = view.findViewById(R.id.recyclerVew);
 
         floatingActionButton = view.findViewById(R.id.fab);
 
+        getUserName();
         lists = new ArrayList<>();
         initData();
-
-
 
 
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(),AddListActivity.class));
+                getActivity().finish();
             }
         });
 
@@ -138,7 +141,6 @@ private FirebaseAuth mAuth;
                         String date = documentSnapshot.getData().get("CREATEDATE").toString();
                         String time = documentSnapshot.getData().get("CREATETIME").toString();
                         lists.add(new ListModel(listID,userID,heading,content,time,date));
-                        Log.e("task",String.valueOf(lists.size()));
                         setAdapter();
                     }
                 }else {
@@ -153,13 +155,43 @@ private FirebaseAuth mAuth;
         });
     }
 
+    private void getUserName(){
+        db.collection("user").document(mAuth.getCurrentUser().getUid()).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()){
+                    DocumentSnapshot document = task.getResult();
+                    if (document.exists()){
+                        String name = document.get("FullName").toString();
+                        if(name.contains(" ")){
+                            name= name.substring(0, name.indexOf(" "));
+                        }
+                        tvSalutation.setText("Welcome ! "+name);
+                    }else {
+                        Toast.makeText(getContext(),"No such user!",Toast.LENGTH_SHORT).show();
+                    }
+
+                }else {
+                    Toast.makeText(getContext(),"Error "+task.getException().getLocalizedMessage(),Toast.LENGTH_SHORT).show();
+                }
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(getContext(),"Error "+e.getLocalizedMessage(),Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
     @Override
     public void onClickListener(int position) {
         //what will happen when clicked
         Log.e("count",String.valueOf(position));
-        Intent intent = new Intent(getContext(),AddListActivity.class);
+        Intent intent = new Intent(getActivity(),UpdateListActivity.class);
         intent.putExtra("heading",lists.get(position).getListHeading());
         intent.putExtra("content",lists.get(position).getListContent());
+        intent.putExtra("listID",lists.get(position).getListID());
         startActivity(intent);
+        getActivity().finish();
     }
 }

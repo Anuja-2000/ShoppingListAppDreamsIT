@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.ShoppingListApplication" >
+        <activity android:name="com.example.shoppinglistapplication.UpdateListActivity" />
         <activity android:name="com.example.shoppinglistapplication.AddListActivity" />
         <activity android:name="com.example.shoppinglistapplication.ForgotPasswordActivity" />
         <activity android:name="com.example.shoppinglistapplication.FragmentActivity" />

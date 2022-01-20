@@ -10,6 +10,7 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -36,6 +37,8 @@ public class AddListActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseFirestore db;
     private String uid;
+    private ImageButton btBack;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,19 +48,21 @@ public class AddListActivity extends AppCompatActivity {
         etListContent = findViewById(R.id.edt_list_content);
         etListHeading = findViewById(R.id.edt_list_heading);
         btSave = findViewById(R.id.btn_save);
+        btBack = findViewById(R.id.btn_back);
+
+        btBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(AddListActivity.this,FragmentActivity.class));
+                finish();
+            }
+        });
+
 
         mAuth = FirebaseAuth.getInstance();
         uid = mAuth.getCurrentUser().getUid();
         db = FirebaseFirestore.getInstance();
 
-        Intent intent = getIntent();
-        String heading = intent.getStringExtra("heading");
-        String content = intent.getStringExtra("content");
-
-        if (!heading.isEmpty() && !content.isEmpty()){
-            etListContent.setText(content);
-            etListHeading.setText(heading);
-        }
 
 
         btSave.setOnClickListener(new View.OnClickListener() {

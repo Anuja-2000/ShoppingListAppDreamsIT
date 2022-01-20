@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\1d80cc293cb4d913fab93ace3e2ed435\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\4785ba3b433b21edc88cb0ed30c6ea9d\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:3.5.0] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\89ed1367f498db368df481da7bee40d3\jetified-lottie-3.5.0\AndroidManifest.xml:2:1-11:12
@@ -62,25 +62,25 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\HP\Downloads\gradle-4.10.1\cac
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\eea7ea6df7a27343432cb6c94f37cacc\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\863b5c8cd01c6a86a631903429a08adb\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\5f88f3b5602a6be8f85b77ce33bffd57\jetified-grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\1d80cc293cb4d913fab93ace3e2ed435\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\1d80cc293cb4d913fab93ace3e2ed435\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\HP\Downloads\gradle-4.10.1\caches\transforms-2\files-2.1\4785ba3b433b21edc88cb0ed30c6ea9d\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
@@ -123,44 +123,48 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\HP
 		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:11:9-61
+activity#com.example.shoppinglistapplication.UpdateListActivity
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:12:9-65
+	android:name
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:12:19-53
 activity#com.example.shoppinglistapplication.AddListActivity
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:12:9-62
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:13:9-53
 	android:name
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:12:19-50
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:13:19-50
 activity#com.example.shoppinglistapplication.ForgotPasswordActivity
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:13:9-60
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:14:9-60
 	android:name
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:13:19-57
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:14:19-57
 activity#com.example.shoppinglistapplication.FragmentActivity
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:14:9-54
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:15:9-54
 	android:name
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:14:19-51
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:15:19-51
 activity#com.example.shoppinglistapplication.SignUpActivity
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:15:9-52
-	android:name
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:15:19-49
-activity#com.example.shoppinglistapplication.SignInActivity
 ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:16:9-52
 	android:name
 		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:16:19-49
-activity#com.example.shoppinglistapplication.SplashActivity
+activity#com.example.shoppinglistapplication.SignInActivity
 ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:17:9-52
 	android:name
 		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:17:19-49
+activity#com.example.shoppinglistapplication.SplashActivity
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:18:9-52
+	android:name
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:18:19-49
 activity#com.example.shoppinglistapplication.MainActivity
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Moblie App Dev course Dreams IT\ShoppingListApplication\app\src\main\AndroidManifest.xml

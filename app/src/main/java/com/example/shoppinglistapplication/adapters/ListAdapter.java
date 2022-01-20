@@ -40,7 +40,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         time = lists.get(position).getCreateTime();
 
         holder.tvListName.setText(listName);
-        holder.tvLastModified.setText("Last Updated:- "+lastModified+"@"+time);
+        holder.tvLastModified.setText("Last Updated:- "+lastModified+" "+time);
     }
 
 
