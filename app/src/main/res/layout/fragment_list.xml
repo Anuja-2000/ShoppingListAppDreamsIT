@@ -58,7 +58,8 @@
             android:scaleType="center"
             android:src="@drawable/ic_baseline_add_circle_24"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerVew"

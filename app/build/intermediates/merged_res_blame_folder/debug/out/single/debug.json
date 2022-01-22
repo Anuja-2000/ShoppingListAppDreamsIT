@@ -8,12 +8,20 @@
         "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\drawable\\profile_data_background.xml"
     },
     {
+        "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\transition_trans_main.xml.flat",
+        "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\transition\\trans_main.xml"
+    },
+    {
         "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_list.xml.flat",
         "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\layout\\activity_add_list.xml"
     },
     {
         "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim_bounce.xml.flat",
+        "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\anim\\bounce.xml"
     },
     {
         "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -86,6 +94,10 @@
     {
         "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plus_2.xml.flat",
         "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\drawable\\ic_plus_2.xml"
+    },
+    {
+        "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadein.xml.flat",
+        "source": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\src\\main\\res\\anim\\fadein.xml"
     },
     {
         "merged": "D:\\Moblie App Dev course Dreams IT\\ShoppingListApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",

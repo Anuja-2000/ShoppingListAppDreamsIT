@@ -1,5 +1,6 @@
 package com.example.shoppinglistapplication;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -107,7 +108,9 @@ private FirebaseAuth mAuth;
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),AddListActivity.class));
+                Intent intent = new Intent(getActivity(),AddListActivity.class);
+//                Bundle b = ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle();
+                startActivity(intent);
                 getActivity().finish();
             }
         });

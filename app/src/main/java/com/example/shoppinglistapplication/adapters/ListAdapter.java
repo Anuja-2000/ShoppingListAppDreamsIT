@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.shoppinglistapplication.R;
@@ -52,14 +53,17 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private final TextView tvListName;
         private final TextView tvLastModified;
+        private final ConstraintLayout topLayout;
         RecyclerViewClickListener clickListener;
 
         public ViewHolder(View itemView, RecyclerViewClickListener clickListener) {
             super(itemView);
             tvListName = itemView.findViewById(R.id.tv_list_name);
             tvLastModified = itemView.findViewById(R.id.tv_last_update);
+            topLayout = itemView.findViewById(R.id.top_layout);
             this.clickListener = clickListener;
-            tvListName.setOnClickListener(this);
+            topLayout.setOnClickListener(this);
+
         }
 
         @Override
